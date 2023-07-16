@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrFJA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7V1s.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to left, #d73953, #f02c4d, #e83b8e, #ea32b3);
+}
+body .wrapper {
+  padding: 30px 40px;
+  border-radius: 12px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+body .wrapper header {
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+}
+body .wrapper p {
+  color: #333;
+}
+body .input-field {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 25px 0;
+}
+body .input-field input,
+body .input-field button {
+  height: 50px;
+  width: calc(100% / 2 - 20px);
+  outline: none;
+  padding: 0 20px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+body .input-field input {
+  text-align: center;
+  color: #000000;
+  width: 110px;
+  border: 1px solid #aaa;
+}
+body .input-field button {
+  border: none;
+  background: #06f3c0;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+body .input-field button:active {
+  transform: scale(0.97);
+}
+body .input-field button:hover {
+  background: #ea32b3;
+  color: white;
+}
